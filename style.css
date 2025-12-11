@@ -53,7 +53,9 @@ header{
     margin-right: 15px;
 }
 
-.nav-link a:hover,.main-account a:hover{
+.nav-link a:hover,
+.main-account a:hover
+{
     background-color:rgb(47, 51,54);
     border-radius: 9999px;
 }
@@ -255,4 +257,93 @@ main{
     padding-right: 50px;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.side-feed{
+    width: 50%;
+    padding: 0 2%;
+}
+
+.side-feed .search{
+    min-width: 335px;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    background-color: black;
+}
+.search input{
+    width: 100%;
+    height: 45px;
+    background-color: #212327;
+    border-radius: 9999px;
+    padding-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    line-height: 20px;
+}
+
+.trending{
+    height: 570px;
+    min-width: 240px;
+    background-color: #212327;
+    margin-top: 15px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.trending-item{
+    display: flex;
+    flex-direction: column;
+    color: rgb(110, 118, 125);
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+
+.item-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.trending-item span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.trending-item p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.trending-item:hover,
+.trending a:hover
+{
+    background-color: #1c1e22;
+    cursor: pointer;
+}
+
+.trending a{
+    color: white;
+    align-items: center;
+    color: #1c88d2;
+    width: 100%;
+    font-size: 2rem;
+    font-weight:300;
+    padding: 10px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
